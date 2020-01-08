@@ -16,8 +16,10 @@
 
 PRODUCT_MAKEFILES := \
     $(LOCAL_DIR)/aosp_bullhead.mk \
+    $(LOCAL_DIR)/havoc_bullhead.mk \
     $(LOCAL_DIR)/aosp_bullhead_svelte.mk
 
 COMMON_LUNCH_CHOICES := \
+    havoc_bullhead-userdebug \
     aosp_bullhead-userdebug \
     aosp_bullhead-eng
